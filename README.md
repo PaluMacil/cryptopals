@@ -6,6 +6,9 @@ I will be using this repo to complete the [Cryptopals Challenges](http://cryptop
 
 Keep it simple and run with `go run main.go`.
 
+# Status
+Stuck on 2 of set 1. I might be interpreting the instructions wrong...
+
 # License
 
 My code is available under an MIT license, if you should find a use for it. The text of the excercises is copyright the authors, whom appear to be Thomas Ptacek, Sean Devlin, Alex Balducci, and Marcin Wielgoszewski, but the cryptopals site does not appear to provide a clear statement of licensing for data files and exercise descriptions, so I would advise against attempting to use the content for profit, but educational / academic use seems to be clearly intended.

@@ -14,4 +14,11 @@ func main() {
 		log.Panicln(err)
 	}
 	fmt.Printf("%s\n", b64)
+
+	fmt.Println("Set 1, Ex 2: Fixed XOR")
+	xor, err := set1.HexDecodeAndXOR([]byte("1c0111001f010100061a024b53535009181c"), []byte("686974207468652062756c6c277320657965"))
+	if err != nil {
+		log.Panicln(err)
+	}
+	fmt.Printf("%x\n", xor)
 }
